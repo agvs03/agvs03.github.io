@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sudheer Arikatla | Senior Backend &amp; Full-Stack Engineer (Java, Kotlin, Kafka)</title>
+<meta name="description" content="Sudheer Arikatla is a senior backend and full-stack engineer in Minneapolis–St. Paul with 6+ years building Java, Kotlin, Spring Boot and Kafka systems at Target, Charter and HDFC Bank. AWS and Oracle certified.">
+<meta name="keywords" content="Sudheer Arikatla, Senior Java Developer, Backend Engineer, Kotlin, Spring Boot, Apache Kafka, Microservices, Minneapolis, AWS Certified Solutions Architect">
+<meta name="author" content="Sudheer Arikatla">
+<link rel="canonical" href="https://arikatla.dev/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1747C9">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Sudheer Arikatla | Senior Backend & Full-Stack Engineer">
+<meta property="og:description" content="Java, Kotlin and Kafka engineer with 6+ years at Target, Charter and HDFC Bank. Projects, certifications and experience.">
+<meta property="og:url" content="https://arikatla.dev/">
+<meta property="profile:first_name" content="Sudheer">
+<meta property="profile:last_name" content="Arikatla">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sudheer Arikatla | Senior Backend & Full-Stack Engineer">
+<meta name="twitter:description" content="Java, Kotlin and Kafka engineer with 6+ years at Target, Charter and HDFC Bank.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230D1B2E'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle'%3ESA%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Sudheer Arikatla","alternateName":"Gopi Venkata Sudheer Arikatla","url":"https://arikatla.dev/","email":"mailto:sudheer@arikatla.dev","jobTitle":"Senior Backend & Full-Stack Engineer","worksFor":{"@type":"Organization","name":"Target"},"address":{"@type":"PostalAddress","addressLocality":"Minneapolis","addressRegion":"MN","addressCountry":"US"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"University of Missouri–Kansas City"},{"@type":"CollegeOrUniversity","name":"Sathyabama Institute of Science and Technology"}],"knowsAbout":["Java","Kotlin","Spring Boot","Apache Kafka","Microservices","GCP","AWS","React","LangChain"],"hasCredential":[{"@type":"EducationalOccupationalCredential","name":"AWS Certified Solutions Architect – Associate"},{"@type":"EducationalOccupationalCredential","name":"Oracle Certified Professional: Java SE 8 Developer"},{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified: Azure Fundamentals"},{"@type":"EducationalOccupationalCredential","name":"CompTIA Data+"},{"@type":"EducationalOccupationalCredential","name":"Salesforce Certified Administrator"}],"sameAs":["https://www.linkedin.com/in/sudheer-arikatla","https://github.com/agvs03"]}
+</script>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 1120px column. Hero (pitch + profile card) → proof strip → experience timeline → GitHub projects → certifications → skills → education → contact. */
+:root{
+  --bg:#F6F7F9; --surface:#FFFFFF; --sunk:#EEF1F5; --fg:#0D1B2E; --muted:#56637A; --line:#DCE1E8;
+  --accent:#1747C9; --accent-ink:#FFFFFF; --accent-soft:#E6ECFB; --ok:#18794E; --gold:#A86A00;
+  --display:"Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1220; --surface:#121B2D; --sunk:#0F1727; --fg:#E8ECF4; --muted:#9AA6BC; --line:#243049;
+  --accent:#7FA2FF; --accent-ink:#0B1220; --accent-soft:#1A2646; --ok:#4CC38A; --gold:#E3AE4A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1220; --surface:#121B2D; --sunk:#0F1727; --fg:#E8ECF4; --muted:#9AA6BC; --line:#243049;
+  --accent:#7FA2FF; --accent-ink:#0B1220; --accent-soft:#1A2646; --ok:#4CC38A; --gold:#E3AE4A; color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;padding-inline:24px}
+.wrap{max-width:1120px;margin-inline:auto}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.1}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+svg.i{width:18px;height:18px;flex:none;fill:currentColor}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);margin-inline:-24px;padding-inline:24px}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:14px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--fg);text-decoration:none;font-family:var(--display);font-weight:700}
+.brand i{display:grid;place-items:center;width:32px;height:32px;border-radius:8px;background:var(--fg);color:var(--bg);font-style:normal;font-size:13px;letter-spacing:.02em}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+.nav ul a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:500}
+.nav ul a:hover{color:var(--fg)}
+@media (max-width:760px){.nav ul{display:none}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 15px var(--body);padding:11px 18px;border-radius:10px;border:1px solid transparent;text-decoration:none;cursor:pointer;transition:transform .15s, background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.line{background:var(--surface);color:var(--fg);border-color:var(--line)}
+.btn.line:hover{border-color:var(--fg)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:56px;align-items:start;padding-block:72px 56px}
+.hero>*{min-width:0}
+.avail{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:500;padding:6px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+.avail b{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 22%,transparent)}
+.hero h1{font-size:clamp(46px,7.2vw,88px);font-weight:800;letter-spacing:-.035em;margin-top:22px}
+.hero .title{font-family:var(--display);font-size:clamp(20px,2.3vw,26px);font-weight:600;color:var(--accent);margin-top:12px}
+.hero .pitch{font-size:18px;color:var(--muted);max-width:58ch;margin-top:18px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+
+.profile{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:grid;gap:18px;box-shadow:0 1px 0 var(--line),0 24px 48px -32px color-mix(in srgb,var(--fg) 35%,transparent)}
+.who{display:flex;gap:16px;align-items:center}
+.mono{width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 50%,var(--fg)));color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:24px;flex:none}
+.who strong{display:block;font-family:var(--display);font-size:18px}
+.who span{color:var(--muted);font-size:14px}
+.kv{display:grid;gap:10px;margin:0}
+.kv div{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.kv div:last-child{border-bottom:0;padding-bottom:0}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;font-weight:500;text-align:right}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-size:12px;font-weight:600;padding:4px 9px;border-radius:6px;background:var(--accent-soft);color:var(--fg)}
+
+/* proof strip */
+.proof{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}
+.proof div{padding:22px 24px;border-left:1px solid var(--line)}
+.proof div:first-child{border-left:0}
+.proof strong{display:block;font-family:var(--display);font-size:34px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.proof span{color:var(--muted);font-size:14px}
+.logos{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin-top:22px;color:var(--muted);font-family:var(--display);font-weight:700;font-size:17px}
+.logos .eyebrow{font-size:11px;margin-right:4px}
+
+/* sections */
+section{padding-block:88px 0}
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:36px;flex-wrap:wrap}
+.head h2{font-size:clamp(30px,3.6vw,42px);font-weight:800;letter-spacing:-.02em;margin-top:8px}
+.head p{color:var(--muted);max-width:52ch}
+
+/* timeline */
+.tl{position:relative;display:grid;gap:20px}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.job{position:relative;display:grid;grid-template-columns:24px 1fr;gap:20px}
+.dot{width:24px;height:24px;border-radius:50%;background:var(--surface);border:2px solid var(--line);margin-top:22px;z-index:1}
+.job.now .dot{border-color:var(--accent);box-shadow:inset 0 0 0 5px var(--surface);background:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;min-width:0}
+.job-top{display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;align-items:baseline}
+.job h3{font-size:21px;font-weight:700}
+.job .org{color:var(--accent);font-weight:600}
+.when{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap}
+.job .sum{color:var(--muted);margin-top:6px}
+.job ul{margin:14px 0 0;padding-left:18px;display:grid;gap:7px}
+.job li::marker{color:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.tag{font-family:var(--mono);font-size:12px;padding:3px 8px;border-radius:6px;background:var(--sunk);color:var(--muted);border:1px solid var(--line)}
+
+/* projects */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.filters button{font:500 14px var(--body);padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.proj{display:flex;flex-direction:column;gap:12px;transition:border-color .15s, transform .15s}
+.proj:hover{border-color:var(--accent);transform:translateY(-2px)}
+.proj.feature{grid-column:span 2}
+.proj .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.lang{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
+.lang i{width:10px;height:10px;border-radius:50%;background:#3572A5}
+.proj h3{font-size:19px;font-weight:700}
+.proj p{color:var(--muted);font-size:15px}
+.metrics{display:flex;flex-wrap:wrap;gap:8px 20px;padding-top:4px}
+.metrics div{display:grid}
+.metrics strong{font-family:var(--display);font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}
+.metrics span{font-size:12px;color:var(--muted)}
+.proj .tags{margin-top:auto;padding-top:6px}
+.proj a.repo{font-size:14px;font-weight:600;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.proj a.repo:hover{text-decoration:underline}
+.more{display:flex;justify-content:center;margin-top:24px}
+
+/* certs */
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cert{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start}
+.seal{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:13px;color:#fff}
+.cert h3{font-size:16px;font-weight:700;line-height:1.3}
+.cert .iss{font-size:14px;color:var(--muted);margin-top:2px}
+.cert .valid{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-family:var(--mono);font-size:12px;color:var(--ok)}
+.cert .valid.na{color:var(--muted)}
+.found{margin-top:22px;padding:20px 24px;background:var(--sunk);border:1px solid var(--line);border-radius:var(--radius)}
+.found ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 24px;font-size:14px}
+.found li span{color:var(--muted)}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skills .card h3{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:12px}
+.skills .tags{margin-top:0}
+.skills .tag.core{background:var(--accent-soft);color:var(--fg);border-color:transparent;font-weight:500}
+
+/* edu */
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.edu h3{font-size:19px}
+.edu p{color:var(--muted);margin-top:6px}
+
+/* contact */
+.contact{margin-top:88px;background:var(--fg);color:var(--bg);border-radius:20px;padding:56px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.contact h2{font-size:clamp(32px,4.6vw,52px);font-weight:800;letter-spacing:-.025em}
+.contact p{opacity:.75;margin-top:14px;max-width:46ch}
+.clinks{display:grid;gap:10px}
+.clink{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-radius:12px;background:color-mix(in srgb,var(--bg) 8%,transparent);border:1px solid color-mix(in srgb,var(--bg) 18%,transparent);color:var(--bg);text-decoration:none;flex-wrap:wrap}
+.clink>span{display:flex;align-items:center;gap:10px;min-width:0;word-break:break-all}
+.clink small{font-family:var(--mono);font-size:12px;opacity:.6}
+.clink button{font:600 13px var(--body);padding:6px 12px;border-radius:8px;border:0;background:var(--bg);color:var(--fg);cursor:pointer}
+a.clink:hover{border-color:var(--bg)}
+footer{padding-block:32px 40px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:980px){
+  .grid,.certs,.skills{grid-template-columns:1fr 1fr}
+  .proj.feature{grid-column:span 2}
+}
+@media (max-width:820px){
+  .hero,.contact,.edu{grid-template-columns:1fr}
+  .hero{padding-block:48px 40px;gap:36px}
+  .proof{grid-template-columns:1fr 1fr}
+  .proof div:nth-child(3){border-left:0}
+  .proof div:nth-child(n+3){border-top:1px solid var(--line)}
+  .contact{padding:36px 28px}
+}
+@media (max-width:600px){
+  body{padding-inline:16px}
+  .nav{margin-inline:-16px;padding-inline:16px}
+  .grid,.certs,.skills{grid-template-columns:1fr}
+  .proj.feature{grid-column:auto}
+  .card{padding:20px}
+  .job{grid-template-columns:16px 1fr;gap:12px}
+  .tl::before{left:7px}
+  .dot{width:16px;height:16px}
+  .job.now .dot{box-shadow:inset 0 0 0 3px var(--surface)}
+}
+</style>
+
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="gh" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></symbol>
+  <symbol id="in" viewBox="0 0 16 16"><path d="M0 1.15C0 .52.53 0 1.18 0h13.64C15.47 0 16 .52 16 1.15v13.7c0 .63-.53 1.15-1.18 1.15H1.18C.53 16 0 15.48 0 14.85V1.15zM4.94 13.4V6.17h-2.4v7.23h2.4zM3.74 5.18c.84 0 1.36-.55 1.36-1.25-.02-.71-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zM8.66 13.4V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.23-.88.87 0 1.21.66 1.21 1.63v3.88h2.4V9.25c0-2.22-1.18-3.25-2.76-3.25-1.28 0-1.84.7-2.16 1.2h.02V6.17h-2.4c.03.68 0 7.23 0 7.23h2.4z"/></symbol>
+  <symbol id="mail" viewBox="0 0 16 16"><path d="M1.5 3h13A1.5 1.5 0 0116 4.5v7a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 010 11.5v-7A1.5 1.5 0 011.5 3zm.2 1.5L8 8.6l6.3-4.1H1.7zM14.5 6.1L8.4 10a.75.75 0 01-.8 0L1.5 6.1v5.4h13V6.1z"/></symbol>
+  <symbol id="arrow" viewBox="0 0 16 16"><path d="M4.5 3h8.5v8.5h-1.5V5.56l-7.97 7.97-1.06-1.06L10.44 4.5H4.5z"/></symbol>
+  <symbol id="check" viewBox="0 0 16 16"><path d="M6.2 11.6L2.6 8l1.06-1.06L6.2 9.48l6.14-6.14 1.06 1.06z"/></symbol>
+</svg>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><i>SA</i>Sudheer Arikatla</a>
+    <ul>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+  <header class="hero">
+    <div>
+      <span class="avail"><b aria-hidden="true"></b>Available for senior roles · Minneapolis–St. Paul, remote or relocation</span>
+      <h1>Sudheer Arikatla</h1>
+      <p class="title">Senior Backend &amp; Full-Stack Engineer</p>
+      <p class="pitch">I design Java and Kotlin microservices, Kafka event pipelines and secure APIs for systems that can't go down. Six years shipping across retail supply chain at Target, telecom at Charter, and banking at HDFC, plus hands-on work with LLMs and machine learning.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact"><svg class="i"><use href="#mail"/></svg>Hire me</a>
+        <a class="btn line" href="https://www.linkedin.com/in/sudheer-arikatla" target="_blank" rel="noopener"><svg class="i"><use href="#in"/></svg>LinkedIn</a>
+        <a class="btn line" href="https://github.com/agvs03" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>GitHub</a>
+      </div>
+    </div>
+
+    <aside class="profile" aria-label="Profile summary">
+      <div class="who">
+        <div class="mono" aria-hidden="true">SA</div>
+        <div><strong>Gopi Venkata Sudheer Arikatla</strong><span>Development Engineer at Target</span></div>
+      </div>
+      <dl class="kv">
+        <div><dt>Focus</dt><dd>Java 17 · Spring Boot 3 · Kafka</dd></div>
+        <div><dt>Cloud</dt><dd>GCP · AWS · Azure</dd></div>
+        <div><dt>Education</dt><dd>M.S. Computer Science, UMKC</dd></div>
+        <div><dt>Open to</dt><dd>Full-time or contract</dd></div>
+      </dl>
+      <div class="badges" aria-label="Key certifications">
+        <span class="badge">AWS Solutions Architect</span>
+        <span class="badge">Oracle Java OCP</span>
+        <span class="badge">Azure AZ-900</span>
+        <span class="badge">CompTIA Data+</span>
+        <span class="badge">Salesforce Admin</span>
+      </div>
+    </aside>
+  </header>
+
+  <div class="proof" aria-label="Highlights">
+    <div><strong>6+ yrs</strong><span>production backend engineering</span></div>
+    <div><strong>−40%</strong><span>banking report runtime after Oracle tuning</span></div>
+    <div><strong>85%+</strong><span>test coverage held on Charter services</span></div>
+    <div><strong>11</strong><span>certifications, incl. AWS and Oracle</span></div>
+  </div>
+  <div class="logos"><span class="eyebrow">Shipped for</span>Target<span aria-hidden="true">·</span>Charter Communications<span aria-hidden="true">·</span>Deloitte / HDFC Bank<span aria-hidden="true">·</span>Aveva</div>
+
+  <section id="experience">
+    <div class="head">
+      <div><p class="eyebrow">Experience</p><h2>Where I've built</h2></div>
+      <p>Backend first, full-stack when the feature needs it. I own work from design review through deployment and production triage.</p>
+    </div>
+    <div class="tl">
+      <article class="job now">
+        <span class="dot" aria-hidden="true"></span>
+        <div class="card">
+          <div class="job-top"><h3>Development Engineer · <span class="org">Target</span></h3><span class="when">May 2026 – Present</span></div>
+          <p class="sum">Supply chain platform, outbound replenishment and warehouse execution.</p>
+          <ul>
+            <li>Build Java 17 / Spring Boot 3 microservices and REST APIs connecting warehouse systems, internal platforms and third-party services.</li>
+            <li>Design Kafka producers, consumers and Streams apps with exactly-once semantics and dead-letter handling; GCP Pub/Sub for cross-service messaging, BigQuery for analytics.</li>
+            <li>Tune PostgreSQL and Oracle for high-volume retail workloads through execution-plan analysis and index redesign.</li>
+            <li>Run observability with OpenTelemetry, Prometheus and Grafana; ship through Vela CI/CD and GitHub Actions with SonarQube gates. TDD and daily pair programming.</li>
+          </ul>
+          <div class="tags"><span class="tag">Java 17</span><span class="tag">Kotlin</span><span class="tag">Kafka</span><span class="tag">GCP</span><span class="tag">PostgreSQL</span><span class="tag">Grafana</span></div>
+        </div>
+      </article>
+      <article class="job">
+        <span class="dot" aria-hidden="true"></span>
+        <div class="card">
+          <div class="job-top"><h3>Java Full Stack Developer · <span class="org">Charter Communications</span></h3><span class="when">Feb 2024 – May 2026</span></div>
+          <p class="sum">High-throughput transactional services and pluggable rule-engine components.</p>
+          <ul>
+            <li>Built plugin-style Java and Kotlin components and non-blocking Kotlin coroutine services for heavy concurrent traffic.</li>
+            <li>Replaced synchronous service coupling with Kafka Producer/Consumer/Streams pipelines.</li>
+            <li>Delivered LLM features with OpenAI APIs, LangChain and Hugging Face: RAG pipelines, vector search, summarization and data extraction.</li>
+            <li>Secured services with OAuth 2.0, JWT, Spring Security and SSO/LDAP; held 85%+ coverage with JUnit, Mockito and Cucumber.</li>
+          </ul>
+          <div class="tags"><span class="tag">Kotlin</span><span class="tag">Spring Security</span><span class="tag">Kafka Streams</span><span class="tag">LangChain</span><span class="tag">Azure AKS</span><span class="tag">Angular</span></div>
+        </div>
+      </article>
+      <article class="job">
+        <span class="dot" aria-hidden="true"></span>
+        <div class="card">
+          <div class="job-top"><h3>Java Backend Developer · <span class="org">Deloitte / HDFC Bank</span></h3><span class="when">Mar 2020 – Jul 2022</span></div>
+          <p class="sum">Financial transaction processing for one of India's largest banks.</p>
+          <ul>
+            <li>Cut critical report generation time by 40% by tuning Oracle PL/SQL, indexes and partitioning.</li>
+            <li>Migrated critical services from Java to Kotlin, reducing code volume by 30%.</li>
+            <li>Streamed banking transactions through Kafka for real-time monitoring, fraud signals and notifications.</li>
+            <li>Built reusable Angular component libraries adopted across multiple banking product teams.</li>
+          </ul>
+          <div class="tags"><span class="tag">Spring Boot</span><span class="tag">Oracle PL/SQL</span><span class="tag">Kafka</span><span class="tag">AWS</span><span class="tag">Angular</span></div>
+        </div>
+      </article>
+      <article class="job">
+        <span class="dot" aria-hidden="true"></span>
+        <div class="card">
+          <div class="job-top"><h3>Java Developer · <span class="org">Aveva</span></h3><span class="when">Jan 2019 – Feb 2020</span></div>
+          <p class="sum">Enterprise industrial data platform.</p>
+          <ul>
+            <li>Built Java and Kotlin microservices with versioned API contracts, containerized on Kubernetes on AWS.</li>
+            <li>Built React and TypeScript dashboards for real-time sensor data and system status.</li>
+          </ul>
+          <div class="tags"><span class="tag">Java</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">React</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="head">
+      <div><p class="eyebrow">Open source · github.com/agvs03</p><h2>Projects</h2></div>
+      <p>Side projects in applied AI, machine learning and computer vision, each with code and documented results.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="ai" aria-pressed="false">AI &amp; LLM</button>
+      <button type="button" data-f="ml" aria-pressed="false">Machine learning</button>
+      <button type="button" data-f="cv" aria-pressed="false">Computer vision</button>
+      <button type="button" data-f="data" aria-pressed="false">Data analysis</button>
+    </div>
+    <div class="grid" id="projgrid">
+      <article class="card proj feature" data-c="ai">
+        <div class="top"><span class="eyebrow">Featured · LLM agent</span><span class="lang"><i></i>Python</span></div>
+        <h3>AI Job Application Agent</h3>
+        <p>A Selenium bot that searches LinkedIn jobs by role, location, seniority and date, then uses LangChain to answer application questions and generate a tailored resume PDF for each posting. Works with OpenAI, Gemini, Anthropic, Ollama or Hugging Face models.</p>
+        <div class="tags"><span class="tag">LangChain</span><span class="tag">Selenium</span><span class="tag">Multi-LLM</span><span class="tag">pytest</span><span class="tag">YAML config</span></div>
+        <a class="repo" href="https://github.com/agvs03/Linkedin_Jobs" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="ml">
+        <div class="top"><span class="eyebrow">Fraud detection</span><span class="lang"><i></i>Python</span></div>
+        <h3>Credit Card Fraud Detection</h3>
+        <p>Neural network and gradient-boosted models on 284,807 transactions where only 0.17% are fraud, served by a FastAPI scoring service backed by PostgreSQL.</p>
+        <div class="metrics"><div><strong>0.982</strong><span>ROC-AUC (XGBoost)</span></div><div><strong>0.87</strong><span>fraud recall (ANN)</span></div></div>
+        <div class="tags"><span class="tag">Keras</span><span class="tag">XGBoost</span><span class="tag">SMOTE</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+        <a class="repo" href="https://github.com/agvs03/financial-fraud-detection" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="ml">
+        <div class="top"><span class="eyebrow">Churn prediction</span><span class="lang"><i></i>Python</span></div>
+        <h3>Customer Churn Prediction</h3>
+        <p>Five models compared and tuned with MLflow tracking; the best XGBoost model runs as a Dockerized FastAPI service for real-time predictions.</p>
+        <div class="metrics"><div><strong>91.3%</strong><span>accuracy</span></div><div><strong>0.888</strong><span>ROC-AUC</span></div></div>
+        <div class="tags"><span class="tag">XGBoost</span><span class="tag">MLflow</span><span class="tag">FastAPI</span><span class="tag">Docker</span></div>
+        <a class="repo" href="https://github.com/agvs03/customer-churn-prediction" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="ml">
+        <div class="top"><span class="eyebrow">Security</span><span class="lang"><i></i>Python</span></div>
+        <h3>Phishing Website Detection</h3>
+        <p>A Flask app that classifies URLs from 16 URL, WHOIS and page features, trained on 10,000 URLs.</p>
+        <div class="metrics"><div><strong>81.8%</strong><span>accuracy</span></div><div><strong>0.98</strong><span>phishing precision</span></div></div>
+        <div class="tags"><span class="tag">scikit-learn</span><span class="tag">Flask</span><span class="tag">gunicorn</span></div>
+        <a class="repo" href="https://github.com/agvs03/phishing_website_detection" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="cv">
+        <div class="top"><span class="eyebrow">Accessibility</span><span class="lang"><i></i>Python</span></div>
+        <h3>Eye-Controlled Mouse</h3>
+        <p>Hands-free cursor control with face-recognition login. Head movement, blinks, winks and mouth gestures drive the mouse using 68-point facial landmarks.</p>
+        <div class="tags"><span class="tag">OpenCV</span><span class="tag">dlib</span><span class="tag">PyAutoGUI</span></div>
+        <a class="repo" href="https://github.com/agvs03/Face-Recognition-Based-Eye-Controlled-Mouse" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="cv">
+        <div class="top"><span class="eyebrow">Automation</span><span class="lang"><i></i>Python</span></div>
+        <h3>Face Recognition Attendance</h3>
+        <p>A desktop app that registers faces once, recognizes people on a webcam and logs timestamped attendance to daily reports.</p>
+        <div class="tags"><span class="tag">OpenCV</span><span class="tag">Pandas</span><span class="tag">Tkinter</span></div>
+        <a class="repo" href="https://github.com/agvs03/advanced_facial_recognition_attendance_system" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+      <article class="card proj" data-c="data">
+        <div class="top"><span class="eyebrow">Market research</span><span class="lang"><i></i>Jupyter</span></div>
+        <h3>Big Data Job Market Analysis</h3>
+        <p>Clustering and salary modelling on 680 Glassdoor data-science postings. Found a $120K median, with ML Engineers the top-paid family at $162K.</p>
+        <div class="tags"><span class="tag">K-Means</span><span class="tag">PCA</span><span class="tag">NLTK</span><span class="tag">Regression</span></div>
+        <a class="repo" href="https://github.com/agvs03/Data_analysis-of-Big-Data-Job-Postings-on-GlassDoor" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>View repository<svg class="i"><use href="#arrow"/></svg></a>
+      </article>
+    </div>
+    <div class="more"><a class="btn line" href="https://github.com/agvs03?tab=repositories" target="_blank" rel="noopener"><svg class="i"><use href="#gh"/></svg>See all repositories on GitHub</a></div>
+  </section>
+
+  <section id="certifications">
+    <div class="head">
+      <div><p class="eyebrow">Credentials</p><h2>Certifications</h2></div>
+      <p>Verified credentials across cloud architecture, Java, data and CRM. Credential links are on <a href="https://www.linkedin.com/in/sudheer-arikatla/details/certifications/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    </div>
+    <div class="certs">
+      <article class="card cert"><span class="seal" style="background:#232F3E">AWS</span><div><h3>AWS Certified Solutions Architect – Associate</h3><p class="iss">Amazon Web Services · May 2024</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>Active through May 2027</span></div></article>
+      <article class="card cert"><span class="seal" style="background:#C74634">ORCL</span><div><h3>Oracle Certified Professional: Java SE 8 Developer</h3><p class="iss">Oracle</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>No expiration</span></div></article>
+      <article class="card cert"><span class="seal" style="background:#232F3E">AWS</span><div><h3>AWS Certified Cloud Practitioner</h3><p class="iss">Amazon Web Services · Apr 2024</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>Active through Apr 2027</span></div></article>
+      <article class="card cert"><span class="seal" style="background:#0067B8">MS</span><div><h3>Microsoft Certified: Azure Fundamentals (AZ-900)</h3><p class="iss">Microsoft</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>No expiration</span></div></article>
+      <article class="card cert"><span class="seal" style="background:#C8202F">CT</span><div><h3>CompTIA Data+ ce</h3><p class="iss">CompTIA · May 2024</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>Active through May 2027</span></div></article>
+      <article class="card cert"><span class="seal" style="background:#0B7FC4">SF</span><div><h3>Salesforce Certified Administrator</h3><p class="iss">Salesforce · Apr 2024</p><span class="valid"><svg class="i" style="width:14px;height:14px"><use href="#check"/></svg>Certified</span></div></article>
+    </div>
+    <div class="found">
+      <p class="eyebrow">Foundational coursework</p>
+      <ul>
+        <li>Python Data Structures <span>· Coursera</span></li>
+        <li>Programming for Everybody (Python) <span>· Coursera</span></li>
+        <li>Linux Command Line Basics <span>· Udemy</span></li>
+        <li>Introduction to Programming Using Java <span>· Aqura Infotech</span></li>
+        <li>Programming in C and C++ <span>· Aqura Infotech</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="head">
+      <div><p class="eyebrow">Toolkit</p><h2>Skills</h2></div>
+      <p>Highlighted items are what I use every day.</p>
+    </div>
+    <div class="skills">
+      <div class="card"><h3>Languages</h3><div class="tags"><span class="tag core">Java</span><span class="tag core">Kotlin</span><span class="tag core">SQL</span><span class="tag">TypeScript</span><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">Scala</span></div></div>
+      <div class="card"><h3>Backend</h3><div class="tags"><span class="tag core">Spring Boot 3</span><span class="tag core">REST APIs</span><span class="tag core">Microservices</span><span class="tag">Spring Security</span><span class="tag">Hibernate</span><span class="tag">API Gateway</span><span class="tag">SOAP</span></div></div>
+      <div class="card"><h3>Event streaming</h3><div class="tags"><span class="tag core">Apache Kafka</span><span class="tag core">Kafka Streams</span><span class="tag">GCP Pub/Sub</span><span class="tag">RabbitMQ</span><span class="tag">SNS/SQS</span></div></div>
+      <div class="card"><h3>Data</h3><div class="tags"><span class="tag core">PostgreSQL</span><span class="tag core">Oracle PL/SQL</span><span class="tag">BigQuery</span><span class="tag">MongoDB</span><span class="tag">SQL Server</span><span class="tag">MySQL</span><span class="tag">DB2</span></div></div>
+      <div class="card"><h3>Cloud &amp; DevOps</h3><div class="tags"><span class="tag core">GCP</span><span class="tag core">Docker</span><span class="tag core">Kubernetes</span><span class="tag">AWS</span><span class="tag">Azure</span><span class="tag">Terraform</span><span class="tag">Helm</span><span class="tag">ArgoCD</span><span class="tag">GitHub Actions</span><span class="tag">Jenkins</span></div></div>
+      <div class="card"><h3>AI &amp; ML</h3><div class="tags"><span class="tag core">LangChain</span><span class="tag core">RAG</span><span class="tag">OpenAI APIs</span><span class="tag">LangGraph</span><span class="tag">AWS Bedrock</span><span class="tag">XGBoost</span><span class="tag">Keras</span><span class="tag">MLflow</span></div></div>
+      <div class="card"><h3>Frontend</h3><div class="tags"><span class="tag core">React</span><span class="tag">Angular</span><span class="tag">RxJS</span><span class="tag">Redux</span><span class="tag">Vue.js</span></div></div>
+      <div class="card"><h3>Quality &amp; security</h3><div class="tags"><span class="tag core">JUnit 5</span><span class="tag core">Mockito</span><span class="tag">SonarQube</span><span class="tag">OAuth 2.0</span><span class="tag">JWT</span><span class="tag">OWASP Top 10</span><span class="tag">Cucumber</span></div></div>
+      <div class="card"><h3>Observability</h3><div class="tags"><span class="tag core">Grafana</span><span class="tag">OpenTelemetry</span><span class="tag">Prometheus</span></div></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="head"><div><p class="eyebrow">Education</p><h2>Education</h2></div></div>
+    <div class="edu">
+      <div class="card"><p class="when">2022 – 2023</p><h3>M.S. Computer Science</h3><p>University of Missouri–Kansas City</p></div>
+      <div class="card"><p class="when">2016 – 2020</p><h3>B.Tech Computer Science &amp; Engineering</h3><p>Sathyabama Institute of Science and Technology, Chennai</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div>
+      <p class="eyebrow" style="color:inherit;opacity:.6">Contact</p>
+      <h2>Building something that needs a reliable backend?</h2>
+      <p>I'm looking for senior backend (Java/Kotlin) and full-stack roles, full-time or contract. Based in the Twin Cities, open to remote work and relocation.</p>
+    </div>
+    <div class="clinks">
+      <div class="clink"><span><svg class="i"><use href="#mail"/></svg><span><small>Email</small><br><span id="email">sudheer@arikatla.dev</span></span></span><button type="button" id="copy">Copy</button></div>
+      <a class="clink" href="https://www.linkedin.com/in/sudheer-arikatla" target="_blank" rel="noopener"><span><svg class="i"><use href="#in"/></svg><span><small>LinkedIn</small><br>in/sudheer-arikatla</span></span><svg class="i"><use href="#arrow"/></svg></a>
+      <a class="clink" href="https://github.com/agvs03" target="_blank" rel="noopener"><span><svg class="i"><use href="#gh"/></svg><span><small>GitHub</small><br>agvs03</span></span><svg class="i"><use href="#arrow"/></svg></a>
+    </div>
+  </section>
+
+  <footer><span>© 2026 Sudheer Arikatla</span><span>arikatla.dev</span></footer>
+</main>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.filters button'), cards=document.querySelectorAll('#projgrid .proj');
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.dataset.f;
+    btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    cards.forEach(function(c){c.hidden=!(f==='all'||c.dataset.c===f)});
+  })});
+  var copy=document.getElementById('copy'), em=document.getElementById('email');
+  copy.addEventListener('click',function(){
+    function ok(){copy.textContent='Copied';setTimeout(function(){copy.textContent='Copy'},1600)}
+    function fb(){var r=document.createRange();r.selectNodeContents(em);var s=getSelection();s.removeAllRanges();s.addRange(r);copy.textContent='Selected'}
+    try{navigator.clipboard.writeText(em.textContent).then(ok,fb)}catch(e){fb()}
+  });
+})();
+</script>
+
+</body>
+</html>
